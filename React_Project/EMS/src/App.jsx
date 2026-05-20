@@ -1,7 +1,10 @@
 import React from 'react'
 import Navbar from './component/navbar'
-import Button from './component/button'
 import Section1 from './component/section1'
+import Offer from './component/offer'
+import Section2 from './component/section2'
+import Section3 from './component/section3'
+import Section4 from './component/section4'
 
 
 const App = () => {
@@ -10,7 +13,9 @@ const App = () => {
       <div>
         <Navbar />
         <Section1 />
-        <Button className='bg-black text-white px-4.5 py-2.5 hover:bg-gray-800 transition' text='Explore the Collection' />
+        <Section2 />
+        <Section3 />
+        <Section4 />
       </div>
     </div>
   )

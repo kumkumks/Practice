@@ -1,6 +1,5 @@
 import React from 'react'
 
-
 const Navbar = () => {
   return (
     <div className='bg-white shadow-md p-4 flex items-center justify-between'>
